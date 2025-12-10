@@ -1,0 +1,193 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Data.SqlClient;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Coppel
+{
+    public partial class Form1 : Form
+    {
+        // Aquí pones tu cadena de conexión (ya que la tienes)
+        string connectionString = @"Server=BrunoGerman\SQLEXPRESS;Database=COPPEL;Trusted_Connection=True;";
+        public Form1()
+        {
+            InitializeComponent();
+            CargarDatos();
+            dataGridView1.SelectionChanged += DataGridView1_SelectionChanged;
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox5_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox7_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox8_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+
+        // Cargar datos en el DataGridView
+        private void CargarDatos()
+        {
+            using (SqlConnection conexion = new SqlConnection(connectionString))
+            {
+                try
+                {
+                    conexion.Open();
+                    string consulta = "SELECT * FROM Empleado"; // Cambia "Empleados" por tu tabla
+                    SqlDataAdapter adaptador = new SqlDataAdapter(consulta, conexion);
+                    DataTable tabla = new DataTable();
+                    adaptador.Fill(tabla);
+                    dataGridView1.DataSource = tabla;
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error al cargar datos: " + ex.Message);
+                }
+            }
+        }
+
+        // Al cambiar selección en DataGridView, mostrar en TextBoxes
+        private void DataGridView1_SelectionChanged(object sender, EventArgs e)
+        {
+            if (dataGridView1.CurrentRow != null)
+            {
+                DataGridViewRow fila = dataGridView1.CurrentRow;
+                textBoxNoEmpleado.Text = fila.Cells["NoEmpleado"].Value.ToString();
+                textBoxNombre.Text = fila.Cells["Nombre"].Value.ToString();
+                textBoxApellidoP.Text = fila.Cells["ApellidoP"].Value.ToString();
+                textBoxApellidoM.Text = fila.Cells["ApellidoM"].Value.ToString();
+                textBoxFechaNacimiento.Text = Convert.ToDateTime(fila.Cells["FechaNacimiento"].Value).ToString("yyyy-MM-dd");
+                textBoxRFC.Text = fila.Cells["RFC"].Value.ToString();
+                textBoxCentroTrabajo.Text = fila.Cells["CentroTrabajo"].Value.ToString();
+                textBoxPuesto.Text = fila.Cells["Puesto"].Value.ToString();
+                textBoxDescripcionPuesto.Text = fila.Cells["DescripcionPuesto"].Value.ToString();
+                textBoxDirectivo.Text = fila.Cells["Directivo"].Value.ToString();
+            }
+        }
+
+        // Guardar o actualizar datos cuando se presiona el botón
+        private void btnGuardar_Click(object sender, EventArgs e)
+        {
+            using (SqlConnection conexion = new SqlConnection(connectionString))
+            {
+                try
+                {
+                    conexion.Open();
+
+                    // Primero verificar si el empleado existe
+                    string existeConsulta = "SELECT COUNT(*) FROM Empleados WHERE NoEmpleado = @NoEmpleado";
+                    SqlCommand cmdExiste = new SqlCommand(existeConsulta, conexion);
+                    cmdExiste.Parameters.AddWithValue("@NoEmpleado", textBoxNoEmpleado.Text);
+                    int existe = (int)cmdExiste.ExecuteScalar();
+
+                    string consulta;
+
+                    if (existe > 0)
+                    {
+                        // Actualizar
+                        consulta = @"UPDATE Empleado SET 
+                        Nombre = @Nombre,
+                        ApellidoP = @ApellidoP,
+                        ApellidoM = @ApellidoM,
+                        FechaNacimiento = @FechaNacimiento,
+                        RFC = @RFC,
+                        CentroTrabajo = @CentroTrabajo,
+                        Puesto = @Puesto,
+                        DescripcionPuesto = @DescripcionPuesto,
+                        Directivo = @Directivo
+                        WHERE NoEmpleado = @NoEmpleado";
+                    }
+                    else
+                    {
+                        // Insertar nuevo
+                        consulta = @"INSERT INTO Empleados
+                        (NoEmpleado, Nombre, ApellidoP, ApellidoM, FechaNacimiento, RFC, CentroTrabajo, Puesto, DescripcionPuesto, Directivo)
+                        VALUES
+                        (@NoEmpleado, @Nombre, @ApellidoP, @ApellidoM, @FechaNacimiento, @RFC, @CentroTrabajo, @Puesto, @DescripcionPuesto, @Directivo)";
+                    }
+
+                    SqlCommand comando = new SqlCommand(consulta, conexion);
+                    comando.Parameters.AddWithValue("@NoEmpleado", textBoxNoEmpleado.Text);
+                    comando.Parameters.AddWithValue("@Nombre", textBoxNombre.Text);
+                    comando.Parameters.AddWithValue("@ApellidoP", textBoxApellidoP.Text);
+                    comando.Parameters.AddWithValue("@ApellidoM", textBoxApellidoM.Text);
+                    comando.Parameters.AddWithValue("@FechaNacimiento", DateTime.Parse(textBoxFechaNacimiento.Text));
+                    comando.Parameters.AddWithValue("@RFC", textBoxRFC.Text);
+                    comando.Parameters.AddWithValue("@CentroTrabajo", textBoxCentroTrabajo.Text);
+                    comando.Parameters.AddWithValue("@Puesto", textBoxPuesto.Text);
+                    comando.Parameters.AddWithValue("@DescripcionPuesto", textBoxDescripcionPuesto.Text);
+                    comando.Parameters.AddWithValue("@Directivo", textBoxDirectivo.Text);
+
+                    int filasAfectadas = comando.ExecuteNonQuery();
+
+                    if (filasAfectadas > 0)
+                    {
+                        MessageBox.Show("Datos guardados correctamente.");
+                        CargarDatos(); // Refrescar DataGridView para mostrar cambios
+                    }
+                    else
+                    {
+                        MessageBox.Show("No se guardaron los datos.");
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error al guardar: " + ex.Message);
+                }
+            }
+        }
+    }
+}
