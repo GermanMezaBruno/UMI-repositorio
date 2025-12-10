@@ -1,0 +1,20 @@
+C:\Users\user\Documents\Visual Studio 2022\Trabajos UMI\Actividad 3 CRUD\Actividad 3 CRUD\obj\Debug\Actividad 3 CRUD.csproj.AssemblyReference.cache
+C:\Users\user\Documents\Visual Studio 2022\Trabajos UMI\Actividad 3 CRUD\Actividad 3 CRUD\obj\Debug\Actividad_3_CRUD.Properties.Resources.resources
+C:\Users\user\Documents\Visual Studio 2022\Trabajos UMI\Actividad 3 CRUD\Actividad 3 CRUD\obj\Debug\Actividad 3 CRUD.csproj.GenerateResource.cache
+C:\Users\user\Documents\Visual Studio 2022\Trabajos UMI\Actividad 3 CRUD\Actividad 3 CRUD\obj\Debug\Actividad 3 CRUD.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\Visual Studio 2022\Trabajos UMI\Actividad 3 CRUD\Actividad 3 CRUD\bin\Debug\Actividad 3 CRUD.exe.config
+C:\Users\user\Documents\Visual Studio 2022\Trabajos UMI\Actividad 3 CRUD\Actividad 3 CRUD\bin\Debug\Actividad 3 CRUD.exe
+C:\Users\user\Documents\Visual Studio 2022\Trabajos UMI\Actividad 3 CRUD\Actividad 3 CRUD\bin\Debug\Actividad 3 CRUD.pdb
+C:\Users\user\Documents\Visual Studio 2022\Trabajos UMI\Actividad 3 CRUD\Actividad 3 CRUD\obj\Debug\Actividad 3 CRUD.exe
+C:\Users\user\Documents\Visual Studio 2022\Trabajos UMI\Actividad 3 CRUD\Actividad 3 CRUD\obj\Debug\Actividad 3 CRUD.pdb
+C:\Users\user\Documents\Visual Studio 2022\Trabajos UMI\Actividad 3 CRUD\Actividad 3 CRUD\obj\Debug\Actividad 3 CRUD.exe.config
+C:\Users\user\Documents\Visual Studio 2022\Trabajos UMI\Actividad 3 CRUD\Actividad 3 CRUD\obj\Debug\Actividad_3_CRUD.FormPrincipal.resources
+C:\Users\user\Documents\Visual Studio 2022\Trabajos UMI\Actividad 3 CRUD\Actividad 3 CRUD\obj\Debug\Actividad_3_CRUD.Formularios.FormDamas.resources
+C:\Users\user\Documents\Visual Studio 2022\Trabajos UMI\Actividad 3 CRUD\Actividad 3 CRUD\obj\Debug\Actividad_3_CRUD.Formularios.FormCaballeros.resources
+C:\Users\user\Documents\Visual Studio 2022\Trabajos UMI\Actividad 3 CRUD\Actividad 3 CRUD\obj\Debug\Actividad_3_CRUD.Formularios.FormRegistroCliente.resources
+C:\Users\user\Documents\Visual Studio 2022\Trabajos UMI\Actividad 3 CRUD\Actividad 3 CRUD\obj\Debug\Actividad_3_CRUD.Formularios.FormRegistroProveedor.resources
+C:\Users\user\Documents\Visual Studio 2022\Trabajos UMI\Actividad 3 CRUD\Actividad 3 CRUD\obj\Debug\Actividad_3_CRUD.Formularios.FormRegistroProducto.resources
+C:\Users\user\Documents\Visual Studio 2022\Trabajos UMI\Actividad 3 CRUD\Actividad 3 CRUD\obj\Debug\Actividad_3_CRUD.Formularios.FormAcceso.resources
+C:\Users\user\Documents\Visual Studio 2022\Trabajos UMI\Actividad 3 CRUD\Actividad 3 CRUD\obj\Debug\Actividad_3_CRUD.Formularios.FormAccederProveedores.resources
+C:\Users\user\Documents\Visual Studio 2022\Trabajos UMI\Actividad 3 CRUD\Actividad 3 CRUD\obj\Debug\Actividad_3_CRUD.Formularios.FormAccesoProducto.resources
+C:\Users\user\Documents\Visual Studio 2022\Trabajos UMI\Actividad 3 CRUD\Actividad 3 CRUD\obj\Debug\Actividad_3_CRUD.Formularios.FormCompras.resources

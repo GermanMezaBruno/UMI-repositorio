@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Documents\\Visual Studio 2022\\Trabajos UMI\\Actividad 3 CRUD\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ED86D8E1-EF2B-4694-8893-730AE5D213A2}|Actividad 3 CRUD\\Actividad 3 CRUD.csproj|c:\\users\\user\\documents\\visual studio 2022\\trabajos umi\\actividad 3 crud\\actividad 3 crud\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{ED86D8E1-EF2B-4694-8893-730AE5D213A2}|Actividad 3 CRUD\\Actividad 3 CRUD.csproj|solutionrelative:actividad 3 crud\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED86D8E1-EF2B-4694-8893-730AE5D213A2}|Actividad 3 CRUD\\Actividad 3 CRUD.csproj|c:\\users\\user\\documents\\visual studio 2022\\trabajos umi\\actividad 3 crud\\actividad 3 crud\\formularios\\formregistroproveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{ED86D8E1-EF2B-4694-8893-730AE5D213A2}|Actividad 3 CRUD\\Actividad 3 CRUD.csproj|solutionrelative:actividad 3 crud\\formularios\\formregistroproveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED86D8E1-EF2B-4694-8893-730AE5D213A2}|Actividad 3 CRUD\\Actividad 3 CRUD.csproj|c:\\users\\user\\documents\\visual studio 2022\\trabajos umi\\actividad 3 crud\\actividad 3 crud\\formularios\\formcompras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{ED86D8E1-EF2B-4694-8893-730AE5D213A2}|Actividad 3 CRUD\\Actividad 3 CRUD.csproj|solutionrelative:actividad 3 crud\\formularios\\formcompras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED86D8E1-EF2B-4694-8893-730AE5D213A2}|Actividad 3 CRUD\\Actividad 3 CRUD.csproj|c:\\users\\user\\documents\\visual studio 2022\\trabajos umi\\actividad 3 crud\\actividad 3 crud\\formularios\\formregistroproveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED86D8E1-EF2B-4694-8893-730AE5D213A2}|Actividad 3 CRUD\\Actividad 3 CRUD.csproj|solutionrelative:actividad 3 crud\\formularios\\formregistroproveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED86D8E1-EF2B-4694-8893-730AE5D213A2}|Actividad 3 CRUD\\Actividad 3 CRUD.csproj|c:\\users\\user\\documents\\visual studio 2022\\trabajos umi\\actividad 3 crud\\actividad 3 crud\\formularios\\formcompras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED86D8E1-EF2B-4694-8893-730AE5D213A2}|Actividad 3 CRUD\\Actividad 3 CRUD.csproj|solutionrelative:actividad 3 crud\\formularios\\formcompras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED86D8E1-EF2B-4694-8893-730AE5D213A2}|Actividad 3 CRUD\\Actividad 3 CRUD.csproj|c:\\users\\user\\documents\\visual studio 2022\\trabajos umi\\actividad 3 crud\\actividad 3 crud\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED86D8E1-EF2B-4694-8893-730AE5D213A2}|Actividad 3 CRUD\\Actividad 3 CRUD.csproj|solutionrelative:actividad 3 crud\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED86D8E1-EF2B-4694-8893-730AE5D213A2}|Actividad 3 CRUD\\Actividad 3 CRUD.csproj|c:\\users\\user\\documents\\visual studio 2022\\trabajos umi\\actividad 3 crud\\actividad 3 crud\\formularios\\formaccesoproveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{ED86D8E1-EF2B-4694-8893-730AE5D213A2}|Actividad 3 CRUD\\Actividad 3 CRUD.csproj|solutionrelative:actividad 3 crud\\formularios\\formaccesoproveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FormAccesoProveedores.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\Visual Studio 2022\\Trabajos UMI\\Actividad 3 CRUD\\Actividad 3 CRUD\\Formularios\\FormAccesoProveedores.cs",
+              "RelativeDocumentMoniker": "Actividad 3 CRUD\\Formularios\\FormAccesoProveedores.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\Visual Studio 2022\\Trabajos UMI\\Actividad 3 CRUD\\Actividad 3 CRUD\\Formularios\\FormAccesoProveedores.cs [Design]",
+              "RelativeToolTip": "Actividad 3 CRUD\\Formularios\\FormAccesoProveedores.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T19:40:19.715Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\Visual Studio 2022\\Trabajos UMI\\Actividad 3 CRUD\\Actividad 3 CRUD\\Form1.cs",
+              "RelativeDocumentMoniker": "Actividad 3 CRUD\\Form1.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\Visual Studio 2022\\Trabajos UMI\\Actividad 3 CRUD\\Actividad 3 CRUD\\Form1.cs",
+              "RelativeToolTip": "Actividad 3 CRUD\\Form1.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAAAGgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T18:49:51.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormCompras.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\Visual Studio 2022\\Trabajos UMI\\Actividad 3 CRUD\\Actividad 3 CRUD\\Formularios\\FormCompras.cs",
+              "RelativeDocumentMoniker": "Actividad 3 CRUD\\Formularios\\FormCompras.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\Visual Studio 2022\\Trabajos UMI\\Actividad 3 CRUD\\Actividad 3 CRUD\\Formularios\\FormCompras.cs",
+              "RelativeToolTip": "Actividad 3 CRUD\\Formularios\\FormCompras.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAcwFAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T18:47:29.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormRegistroProveedor.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\Visual Studio 2022\\Trabajos UMI\\Actividad 3 CRUD\\Actividad 3 CRUD\\Formularios\\FormRegistroProveedor.cs",
+              "RelativeDocumentMoniker": "Actividad 3 CRUD\\Formularios\\FormRegistroProveedor.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\Visual Studio 2022\\Trabajos UMI\\Actividad 3 CRUD\\Actividad 3 CRUD\\Formularios\\FormRegistroProveedor.cs",
+              "RelativeToolTip": "Actividad 3 CRUD\\Formularios\\FormRegistroProveedor.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAA4wF8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T18:47:23.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormCompras.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\Visual Studio 2022\\Trabajos UMI\\Actividad 3 CRUD\\Actividad 3 CRUD\\Formularios\\FormCompras.cs",
+              "RelativeDocumentMoniker": "Actividad 3 CRUD\\Formularios\\FormCompras.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\Visual Studio 2022\\Trabajos UMI\\Actividad 3 CRUD\\Actividad 3 CRUD\\Formularios\\FormCompras.cs [Design]",
+              "RelativeToolTip": "Actividad 3 CRUD\\Formularios\\FormCompras.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T18:42:15.555Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormRegistroProveedor.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\Visual Studio 2022\\Trabajos UMI\\Actividad 3 CRUD\\Actividad 3 CRUD\\Formularios\\FormRegistroProveedor.cs",
+              "RelativeDocumentMoniker": "Actividad 3 CRUD\\Formularios\\FormRegistroProveedor.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\Visual Studio 2022\\Trabajos UMI\\Actividad 3 CRUD\\Actividad 3 CRUD\\Formularios\\FormRegistroProveedor.cs [Design]",
+              "RelativeToolTip": "Actividad 3 CRUD\\Formularios\\FormRegistroProveedor.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T18:17:57.209Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\Visual Studio 2022\\Trabajos UMI\\Actividad 3 CRUD\\Actividad 3 CRUD\\Form1.cs",
+              "RelativeDocumentMoniker": "Actividad 3 CRUD\\Form1.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\Visual Studio 2022\\Trabajos UMI\\Actividad 3 CRUD\\Actividad 3 CRUD\\Form1.cs [Design]",
+              "RelativeToolTip": "Actividad 3 CRUD\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T11:42:41.55Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
